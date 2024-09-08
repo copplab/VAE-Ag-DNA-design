@@ -21,6 +21,8 @@
 
 This repository contains code, training data, and experimental validation for a **regularized variational autoencoder (VAE)** model that performs automatic feature extraction for the multi-objective design of DNA-stabilized silver nanoclusters (AgN-DNAs). The repository accompanies the manuscript titled **"Multi-Objective Design of DNA-Stabilized Nanoclusters Using Variational Autoencoders With Automatic Feature Extraction"** (Sadeghi, Mastracco, et al., 2024), DOI [accepted manuscript - pending DOI].
 
+![Schematic of DNA-Nanocluster Interaction and Generative VAE Model for Multi-Objective Design](graphs/Model_description.jpg)
+
 The goal of this project is to design DNA templates that can tune the fluorescence properties of silver nanoclusters (AgN-DNAs) for applications such as deep tissue bioimaging.
 
 Traditional approaches rely on manual feature engineering to design DNA sequences that produce desired properties in AgN-DNAs, which can be labor-intensive and limited to a single property. In contrast, this VAE-based model is generative, allowing for **automatic feature extraction** and **multi-objective design**, enabling the simultaneous optimization of multiple AgN-DNA properties, such as fluorescence color and brightness.
